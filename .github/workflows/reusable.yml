@@ -5,5 +5,5 @@ jobs:
     deploy:
         runs-on: ubuntu-latest
         steps:
-            - name: Deploy
+            - name: Deploy from reusable workflow
               run: echo "Deploying & uploading"
